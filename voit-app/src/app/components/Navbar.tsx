@@ -96,12 +96,7 @@ export default function Navbar() {
                 >
                   Whitepaper
                 </Link>
-                <Link
-                  href="/planning"
-                  className="block px-4 py-2 text-gray-800 dark:text-gray-300 hover:bg-purple-100 dark:hover:bg-purple-900 transition-colors"
-                >
-                  Planning
-                </Link>
+       
               </div>
             )}
           </div>
@@ -136,7 +131,7 @@ export default function Navbar() {
                   {(+balance / 10 ** 18).toFixed(2)}
                 </span>
                 <span className="bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-2 py-1 rounded-full text-xs">
-                  NOTALK
+                  NoFreeTalk
                 </span>
               </div>
             )}
