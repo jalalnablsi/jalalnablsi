@@ -82,12 +82,17 @@ export default function Whitepaper() {
                 <strong>300,000,000 tokens (15%)</strong> - Operational expenses, marketing, and future liquidity.
               </p>
             </div>
-            <div>
-              <h3 className="text-2xl font-bold text-indigo-400">Staking Rewards</h3>
-              <p className="text-gray-300">
-                <strong>200,000,000 tokens (10%)</strong> - Incentivize users to stake tokens and participate in governance.
-              </p>
-            </div>
+           <div>
+  <h3 className="text-2xl font-bold text-indigo-400">Distribution of the 10% Ecosystem Fund:</h3>
+  <p className="text-gray-300">
+    <strong>200,000,000 tokens (10%)</strong> - Allocated to support ecosystem growth and community engagement:
+  </p>
+  <ul className="text-gray-300 list-disc ml-6">
+    <li><strong>4% (80,000,000 tokens)</strong> - Community Rewards: For active participation, voting, and user contributions.</li>
+    <li><strong>3% (60,000,000 tokens)</strong> - Strategic Partnerships: To collaborate with platforms and alliances for ecosystem expansion.</li>
+    <li><strong>3% (60,000,000 tokens)</strong> - Promotions & Campaigns: For airdrops, competitions, and growth initiatives to attract new users.</li>
+  </ul>
+</div>
             <div>
               <h3 className="text-2xl font-bold text-pink-400">Strategic Partners</h3>
               <p className="text-gray-300">
