@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
         <ThirdwebProvider
-          activeChain="polygon-amoy"
+          activeChain="polygon"
           clientId={process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID}
         >
           {children}
